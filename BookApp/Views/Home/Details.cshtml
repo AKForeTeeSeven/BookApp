@@ -1,0 +1,37 @@
+﻿@model BookApp.Models.Book
+
+@{
+    ViewBag.Title = "Book Details";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Book Details</title>
+    <h1>Book Details</h1>
+</head>
+<body>
+    <div>
+        <label title="title-label">Title:</label>
+        <label title="title-info">model.Title</label>
+    </div>
+    <p />
+    <div>
+        <label title="author-label">Author:</label>
+        <label title="title-info">model.Author</label>
+    </div>
+    <p />
+    <div>
+        <label title="year-label">Year:</label>
+        <label title="title-info">model.Year</label>
+    </div>
+    <p />
+    <div>
+        <label title="genre-label">Cover:</label>
+        <label title="title-info">model.Cover</label>
+    </div>
+</body>
+</html>
